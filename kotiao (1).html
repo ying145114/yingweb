@@ -1,0 +1,44 @@
+<title>空调</title>
+<iframe height="700" src="https://ac.yunyoujun.cn"></iframe>
+<p>你可以随时吹这个空调，这个空调很过瘾。有这独立遥控器，你可以单独点击它并开启。
+<p>空调网站项目:https://github.com/YunYouJun/air-conditioner
+<p>这是开源的
+</head>
+<body background="./pic/Background.jpg"
+      style=" background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;">
+    <Link Rel="SHORTCUT ICON" href="./favicon.ico">
+    <!--JS引用-->
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script type="text/javascript" src="./Non-VIPVid/jquery.min.js"></script>
+    <script type="text/javascript" src="https://apis.jxcxin.cn/api/yiyan?type=js"></script> 
+    <script
+        src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+        crossorigin="anonymous"
+    ></script>
+    <script src="https://widget.time.is/zh.js"></script>
+    <div style="text-align:center">
+        
+        <img src="https://apis.jxcxin.cn/api/ip">
+    </div>
+<div style="text-align:center">
+                                <script>apistore()</script>
+                            </div>
+                            <div style="text-align:center">
+                                <script>
+                                    $.getJSON("https://apis.jxcxin.cn/api/qqstate?qq=2035935505",function(data){
+                                    var tr;
+
+for (var i = 0; i < data.length; i++) {
+
+tr = $('
+');
+tr.append("
+" + data[i].msg + "");
+$('table').append(tr);
+
+}
+
+});
